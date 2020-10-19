@@ -1,14 +1,21 @@
 {
-  "name": "pcb-web",
+  "name": "drag-web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@types/lodash": "^4.14.162",
+    "find-process": "^1.4.3",
+    "immutability-helper": "^3.1.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "react-sortablejs": "^6.0.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.0",
+    "sortablejs": "^1.12.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/sortablejs": "^1.10.6"
   }
 }
