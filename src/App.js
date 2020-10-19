@@ -10,11 +10,13 @@ import Inputs from './components/Inputs'
 import EditPage from './components/EditPage'
 import NewPage from './components/NewPage'
 import TestPage from './components/TestPage'
+import DragCanvas from './components/DragCanvas'
+import NewDrag from './components/NewDrag'
 
 function App() {
   return (
     <div>
-      <EditPage />
+      <NewDrag />
     </div>
   );
 }
