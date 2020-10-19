@@ -12,6 +12,7 @@ import NewPage from './components/NewPage'
 import TestPage from './components/TestPage'
 import DragCanvas from './components/DragCanvas'
 import NewDrag from './components/NewDrag'
+import Sheet from './components/Sheet'
 
 function App() {
   return (
