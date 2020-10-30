@@ -6,12 +6,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@tim-soft/react-dat-gui": "^4.0.11",
     "@types/lodash": "^4.14.162",
+    "codemirror": "^5.58.1",
     "find-process": "^1.4.3",
+    "handlebars": "^4.7.6",
     "immutability-helper": "^3.1.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-hook-form": "^6.9.5",
     "react-scripts": "3.4.3",
+    "react-select": "^3.1.0",
     "react-sortablejs": "^6.0.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.0",
@@ -40,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "@types/sortablejs": "^1.10.6"
+    "@types/sortablejs": "^1.10.6",
+    "react-codemirror2": "^7.2.1"
   }
 }

@@ -1,12 +1,11 @@
 import React from 'react'
 import { Message } from 'semantic-ui-react'
 
-const MessageExampleMessage = () => (
+const MessageExampleMessage = (props) => (
   <Message>
-    <Message.Header>Changes in Service</Message.Header>
+    <Message.Header>{props.head}</Message.Header>
     <p>
-      We updated our privacy policy here to better service our customers. We
-      recommend reviewing the changes.
+    {props.content}
     </p>
   </Message>
 )

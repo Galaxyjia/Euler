@@ -1,9 +1,9 @@
 export default {
-    type: "Button",
-    name: "按钮",
+    type: "Header",
+    name: "标题",
     attr: {
-        type: 'primary',
-        content: '按钮一只',
+        as: 'h1',
+        content: '标题',
         style: {
             height: '',
             width: '',

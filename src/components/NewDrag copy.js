@@ -64,17 +64,7 @@ const soundData = [
           // flexDirection:"row"
         },
         className:'column'
-      },
-      config:[
-        {
-          text: '文字内容',
-          children:[{
-              type: 'string',
-              text: '内容',
-              field: 'content' // props.content
-          }]
-      },
-      ]
+      }
     },
     {
         name: 'Button',
@@ -82,17 +72,7 @@ const soundData = [
         attr: {
             content:'按钮',
             color:'blue',
-        },
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ]
+        }
     },
     {
         name: 'Header',
@@ -101,17 +81,7 @@ const soundData = [
             as:'h1',
             content:'h1标题',
             color:'yellow'
-        },
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ]
+        }
     },
     {
         name: 'Label',
@@ -121,17 +91,7 @@ const soundData = [
             content:'标签',
             size:'large'
             // color:'red'
-        },
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ]
+        }
     },
     {
         name: 'Input',
@@ -142,16 +102,6 @@ const soundData = [
             // icon:'search',
             // iconPosition:'left'
         },
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ]
     },
     {
         name: 'ColumnContainer',
@@ -166,16 +116,6 @@ const soundData = [
             },
             className:'column'
         },
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ],
         list: []
     },
     {
@@ -192,16 +132,6 @@ const soundData = [
             className:'row'
         },
         className:'grid',
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ],
         list: []
     },
     {
@@ -213,16 +143,6 @@ const soundData = [
                 // flexDirection:"row"
             },
         },
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ],
         list: [
             {
                 name: 'Head',
@@ -236,16 +156,6 @@ const soundData = [
                         // flexDirection:"row"
                     },
                 },
-                config:[
-                  {
-                    text: '文字内容',
-                    children:[{
-                        type: 'string',
-                        text: '内容',
-                        field: 'content' // props.content
-                    }]
-                },
-                ],
                 list: []
             },
             {
@@ -260,16 +170,6 @@ const soundData = [
                         // flexDirection:"row"
                     },
                 },
-                config:[
-                  {
-                    text: '文字内容',
-                    children:[{
-                        type: 'string',
-                        text: '内容',
-                        field: 'content' // props.content
-                    }]
-                },
-                ],
                 list: [
                     {
                         name: 'LeftContent',
@@ -283,16 +183,6 @@ const soundData = [
                                 // flexDirection:"row"
                             },
                         },
-                        config:[
-                          {
-                            text: '文字内容',
-                            children:[{
-                                type: 'string',
-                                text: '内容',
-                                field: 'content' // props.content
-                            }]
-                        },
-                        ],
                         list: [
                         ]
                     },
@@ -308,16 +198,6 @@ const soundData = [
                                 // flexDirection:"row"
                             },
                         },
-                        config:[
-                          {
-                            text: '文字内容',
-                            children:[{
-                                type: 'string',
-                                text: '内容',
-                                field: 'content' // props.content
-                            }]
-                        },
-                        ],
                         list: [
                         ]
                     },
@@ -328,17 +208,7 @@ const soundData = [
     {
         name:'Divider',
         type:'Divider',
-        attr: {},
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ]
+        attr: {}
     },
     {
         name:'MenuExampleProps',
@@ -353,32 +223,12 @@ const soundData = [
                 { key: 'hawsome', name: '登录' },
                 { key: 'wwawsome', name: '注册' },
             ]
-        },
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ]
+        }
     },
     {
         name:'CardExampleImageCard',
         type:'CardExampleImageCard',
-        attr: {},
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ]
+        attr: {}
     },
     {
         name:'MessageExampleMessage',
@@ -386,22 +236,11 @@ const soundData = [
         attr: {
           head:'haa',
           content:'wuwu'
-        },
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
-        ]
+        }
     }
 ]
 
 function codeView(list){
-  console.log(list)
   const Handlebars = require("handlebars");
   let source =
   `
@@ -485,38 +324,31 @@ function NewDrag() {
       name: "shrek",
       type:"Header",
       attr:{as:'h2',content:'h2'},
-      config:[
-        {
-          text: '文字内容',
-          children:[{
-              type: 'string',
-              text: '内容',
-              field: 'content' // props.content
-          },
-          {
-            type: 'string',
-            text:'输出',
-            field: 'content' // props.content
-          },
-        
-        ]
-      },
-      ]
     },
     {
         id: 2,
         name: "fiona",
         type:"Header",
         attr:{as:'h3',content:'h3'},
-        config:[
-          {
-            text: '文字内容',
-            children:[{
-                type: 'string',
-                text: '内容',
-                field: 'content' // props.content
-            }]
-        },
+    },
+    {
+        id:3,
+        name:'hello',
+        type:"Container",
+        attr: {},
+        list: [
+            {
+                id: 31,
+                name: "shrek",
+                type:"Header",
+                attr:{as:'h2',content:'h2'},
+              },
+              {
+                  id: 32,
+                  name: "fiona",
+                  type:"Header",
+                  attr:{as:'h3',content:'h3'},
+              },
         ]
     },
   ]);
@@ -528,7 +360,7 @@ function NewDrag() {
 
   return (
     <div>
-      <Grid celled>
+      <Grid >
         <Grid.Column width={2}>
           <h2>组件</h2>
           <ReactSortable 
@@ -578,7 +410,34 @@ function NewDrag() {
         </Grid.Column>
 
         <Grid.Column width={7}>
-           {renderConfig(list[0].config,'props')} 
+          <form onSubmit={handleSubmit(onSubmit)}>
+          <Header as="h2">first name</Header>
+          <Controller
+            as={Input}
+            name="firstName"
+            control={control}
+            defaultValue=""
+          />
+          <Header as="h2">last name</Header>
+          <Controller
+            as={Input}
+            name="lastName"
+            control={control}
+            defaultValue=""
+          />
+          <Controller
+            name="iceCreamType"
+            as={Select}
+            options={[
+              { value: "chocolate", label: "Chocolate" },
+              { value: "strawberry", label: "Strawberry" },
+              { value: "vanilla", label: "Vanilla" }
+            ]}
+            control={control}
+            rules={{ required: true }}
+          />
+            <input type="submit" />
+          </form>
         </Grid.Column>
       </Grid>
       <div>
@@ -672,42 +531,5 @@ function Color() {
   const b = Math.floor(Math.random() * 255);
   return "rgba(" + r + "," + g + "," + b + ",0.8)";
 }
-
-// data 为元素的config
-const renderConfig = (data,type) => {
-  if(JSON.stringify(data)!='[]' && data){
-    return data.map((item,index) => {
-      return (
-        <div key={index}>
-            {item.name}
-            {item.children.map((childitem,index) =>{
-              console.log(childitem)
-              // return <div>{item.text}</div>
-              return <div key={index}>{renderValue(childitem,type)}</div>
-            })} 
-        </div>
-      )
-    })
-  }
-}
-
-const renderValue = (
-  { text:title,field:value,type:type,data},
-  propsType,
-) => {
-  // let valueInfo = null
-  console.log(title)
-  console.log(type)
-  console.log(value)
-  if (type ==="string"){
-    return (
-      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-            <span>{title}</span>
-            <Input placeholder={value}/>
-      </div>
-    )
-  }
-}
-
 
 export default NewDrag;

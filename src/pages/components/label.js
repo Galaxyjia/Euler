@@ -1,9 +1,9 @@
 export default {
-    type: "Button",
-    name: "按钮",
+    type: "Label",
+    name: "Label",
     attr: {
         type: 'primary',
-        content: '按钮一只',
+        content: 'Label',
         style: {
             height: '',
             width: '',

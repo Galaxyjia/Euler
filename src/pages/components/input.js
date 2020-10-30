@@ -1,9 +1,9 @@
 export default {
-    type: "Button",
-    name: "按钮",
+    type: "Input",
+    name: "输入",
     attr: {
-        type: 'primary',
-        content: '按钮一只',
+        placeholder:'输入框',
+        size:'large',
         style: {
             height: '',
             width: '',
